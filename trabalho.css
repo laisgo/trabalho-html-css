@@ -1,0 +1,143 @@
+body {
+    background-color:  #711aaa;
+}
+
+/*cabecalho*/
+header {
+    background-color:  #8726c7;
+    height: 6rem;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    margin-left: -.5rem;
+    margin-top: -.5rem;
+}
+
+/*menu*/
+#menu {
+    float: right;
+    margin-right: 1.5%;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+header li {
+    float: left;
+    margin-top: 1.7rem;
+    padding-right: 1rem;
+}
+
+header li a {
+    color: #f7f6f8 !important;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-decoration: none;
+   /* text-shadow: #e6ebe5 0.1rem 0.1rem;*/
+}
+
+header li:hover {
+    background-color: #68016b !important;
+    padding: 1.5rem 1rem 1rem 1rem;
+    transition: all .4s linear;   
+}
+
+#home {
+    background: url(https://i.ytimg.com/vi/XG95mCQV460/maxresdefault.jpg);
+    background-size: cover;
+    height: 53rem;
+    width: 101.6%;
+    margin-top: -7rem;
+    margin-left: -1rem;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 18rem;
+    color: white;
+    font-size: 7rem;
+    text-shadow: black 3px 1px;
+}
+
+h2 {
+    padding-top: 4.5rem;
+    color: white;
+    font-size: 3rem;
+    margin-left: 39rem;
+    width: 50rem;
+    text-shadow:  black 2px 1px;
+}
+
+#quem_somos {
+    background: url(https://i.pinimg.com/originals/56/3a/db/563adbeb015fb165c4145a28a6c2e4c8.jpg);
+    background-size: cover;
+    height: 50rem;
+    width: 101.6%;
+    margin-top: -7rem;
+    margin-left: -1rem;
+}
+
+.container {
+    display: flex;
+}
+
+#img1 {
+    height: 25rem;
+    width: 25rem;
+    padding-top: 3rem;
+    padding-left: 15rem;
+}
+
+#img2 {
+    height: 25rem;
+    width: 25rem;
+    margin-left: 15rem;
+    padding-top: 3rem;
+}
+
+footer {
+    display: block;
+}
+
+#rodape {
+    background-color: #711aaa;
+    height: 12rem;
+    width: 101.5%;
+    box-sizing: border-box;
+    margin-left: -1rem;
+    margin-top: 2rem;
+}
+
+#title {
+    margin-left: 38rem;
+    margin-top: -2rem;
+    color: thistle;
+    text-shadow: black 2px 1px;
+}
+
+#alunos {
+    margin-top: 4rem;
+    margin-left: -50rem;
+    color: thistle;
+    text-shadow: black 2px 1px;
+}
+
+#matricula {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    color: thistle;
+    text-shadow: black 2px 1px;
+}
+
+#map {
+    margin-left: 45rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: thistle;
+    text-shadow: black 2px 1px;
+}
+
+
+
+
