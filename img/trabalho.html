@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="trabalho.css"> 
+    <title>Trabalho HTML e CSS</title>
+</head>
+<body>
+
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#quem_somos">Quem somos</a></li>
+                <li><a href="#nossas_fotos">Nossas fotos</a></li>
+                <li><a href="#rodape">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="home">
+        <div>
+            <h1>Trabalho HTML e CSS</h1>
+        </div>
+    </section>
+
+    <section id="quem_somos">
+
+        <h2>Quem somos?</h1>
+
+        <div class="container">
+            <div>
+                <img id="img1" src="img/eu.jpg">
+                <h4 style="margin-left: 12rem; color: thistle; font-size: 1.2rem;">Nome: Laís Gomes da Silva<br>Idade: 18 anos <br> Curso: Análise e desenvolvimento de sistemas</h4>
+            </div>
+
+            <div class="coluna">
+                <img id="img2" src="img/WhatsApp Image 2020-10-12 at 17.01.36.jpeg">
+                <h4 style="margin-left: 15rem; color: thistle; font-size: 1.2rem;">Nome: Giordanny Maciel<br>Idade: 18 anos <br> Curso: Ciências da computação</h4>
+            </div>
+        </div>
+
+    </section>
+    
+    <section id="nossas_fotos">
+
+        <div id="fotos_slide">
+            <h2 style="margin-left: 23rem; margin-top: -8rem;">Nossas Fotos</h2>
+            <input type="radio" class="slide-controller" name="slide" checked />
+            <input type="radio" class="slide-controller" name="slide" />
+            <input type="radio" class="slide-controller" name="slide" />
+            <input type="radio" class="slide-controller" name="slide" />
+            
+            <div class="slide-show" >
+            <ul class="slides-list" >
+                <li>
+                    <img class="slide" src="img/eu.jpg"/>
+                </li>
+                <li>
+                    <img class="slide" src="img/WhatsApp Image 2020-10-12 at 17.01.36.jpeg"/>
+                </li>
+                <li>
+                    <img class="slide" src="img/eu1.jpg"/>
+                </li>
+                <li>
+                    <img class="slide" src="img/gio.jpg"/>
+                </li>
+            </ul>
+            </div>
+        </div>    
+        
+    </section>
+    
+    <footer id="rodape">
+
+        <div class="container">
+            <div id="title">
+                <h4 style="font-size: 1.8rem;">Trabalho de HTML e CSS</h4>
+                <h4 style="font-size: 1.2rem; margin-top: -2.1rem; text-align: center;">Professor: Ildo Ramos Vieira</h4>
+            </div>
+            <div id="alunos">
+                <h4 style="font-size: 1.2rem;">Alunos:</h4>
+                <h4 style="margin-top: -1rem;">Laís Gomes da Silva <br> Giordanny Maciel</h4>
+            </div>
+            <div id="matricula">
+                <h4 style="font-size: 1.2rem;">Matrícula:</h4>
+                <h4 style="margin-top: -1rem;">202009331408 <br> 202008319285</h4>
+            </div>
+            <div id="map">
+                <h4 style="margin-top: -.5rem;">Mapa:</h4>
+                <iframe style="margin-top: 0rem;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.199030025644!2d-38.5771068852409!3d-3.7668214972595915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c01797285bb%3A0xa8888be05f940563!2sCentro%20Universit%C3%A1rio%20Est%C3%A1cio%20-%20Campus%20Parangaba!5e0!3m2!1spt-BR!2sbr!4v1602596570661!5m2!1spt-BR!2sbr" width="250" height="150    " frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    
+    </footer>
+
+</body>
+</html>  
+
+<!--https://www.treinaweb.com.br/blog/slideshow-apenas-com-css/-->
